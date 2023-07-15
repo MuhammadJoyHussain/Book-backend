@@ -96,8 +96,6 @@ const updateBook = async (
 
   const { _id } = decodeToken
 
-  console.log(_id)
-
   if (!payload.user === _id) {
     throw new ApiError(400, 'User did not match')
   }
