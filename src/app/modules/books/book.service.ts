@@ -76,6 +76,11 @@ const getBooks = async (
     data: result,
   }
 }
+const getAllBooks = async (): Promise<IBook[]> => {
+  const result = await Book.find({})
+
+  return result
+}
 
 const getBook = async (id: string): Promise<IBook | null> => {
   const book = await Book.findById(id)
@@ -111,6 +116,7 @@ const updateBook = async (
 
 export const BookService = {
   createBook,
+  getAllBooks,
   getBooks,
   getBook,
   updateBook,

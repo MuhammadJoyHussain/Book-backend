@@ -2,9 +2,12 @@ import { Model, ObjectId } from 'mongoose'
 
 export type IBook = {
   title: string
-  author: string
+  publisher: {
+    name: string
+    location: string
+  }
   genre: string
-  publicationDate: string
+  publicationYear: string
   reviews: string
   user: ObjectId
 }

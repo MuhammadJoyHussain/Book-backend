@@ -8,6 +8,7 @@ import { ENUM_USER_ROLE } from '../../../enums/user'
 const router = express.Router()
 
 router.get('/', BookController.getBooks)
+router.get('/all', BookController.getAllBooks)
 
 router.post(
   '/create-book',

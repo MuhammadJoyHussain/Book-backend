@@ -7,21 +7,26 @@ const bookSchema = new Schema<IBook, BookModel>({
     required: true,
     unique: true,
   },
-  author: {
-    type: String,
-    required: true,
+  publisher: {
+    name: {
+      type: String,
+      required: true,
+    },
+    location: {
+      type: String,
+      required: true,
+    },
   },
   genre: {
     type: String,
     required: true,
   },
-  publicationDate: {
+  publicationYear: {
     type: String,
     required: true,
   },
   reviews: {
     type: String,
-    required: true,
   },
   user: {
     type: Schema.Types.ObjectId,

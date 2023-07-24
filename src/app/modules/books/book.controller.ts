@@ -37,6 +37,17 @@ const getBooks = asyncHandler(async (req: Request, res: Response) => {
   })
 })
 
+const getAllBooks = asyncHandler(async (req: Request, res: Response) => {
+  const result = await BookService.getAllBooks()
+
+  sendResponse<IBook[]>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Books retrived successfully!',
+    data: result,
+  })
+})
+
 const getBook = asyncHandler(async (req: Request, res: Response) => {
   const id = req.params.id
 
@@ -68,6 +79,7 @@ const updateBook = asyncHandler(async (req: Request, res: Response) => {
 export const BookController = {
   createBook,
   getBooks,
+  getAllBooks,
   getBook,
   updateBook,
 }

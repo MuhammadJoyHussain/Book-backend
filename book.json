@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Book 1",
+    "genre": "Mystery",
+    "publicationYear": "2021-11-02",
+    "publisher": {
+      "name": "Publisher A",
+      "location": "City A"
+    },
+    "rating": 4.5,
+    "price": 90
+  },
+  {
+    "title": "Book 2",
+    "genre": "Sci-Fi",
+    "publicationYear": "2018-04-25",
+    "publisher": {
+      "name": "Roli Books",
+      "location": "City B"
+    },
+    "rating": 4.8,
+    "price": 120
+  },
+  {
+    "title": "Book 8",
+    "genre": "Horror",
+    "publicationYear": "2022-06-14",
+    "publisher": {
+      "name": "Publisher H",
+      "location": "City H"
+    },
+    "rating": 4.4,
+    "price": 95
+  },
+  {
+    "title": "Book 7",
+    "genre": "Biography",
+    "publicationYear": "2023-01-07",
+    "publisher": {
+      "name": "Publisher G",
+      "location": "City G"
+    },
+    "rating": 4.7,
+    "price": 105
+  },
+  {
+    "title": "Book 4",
+    "genre": "Thriller",
+    "publicationYear": "2017-09-15",
+    "publisher": {
+      "name": "Publisher D",
+      "location": "City D"
+    },
+    "rating": 4.6,
+    "price": 95
+  },
+  {
+    "title": "Book 5",
+    "genre": "Historical Fiction",
+    "publicationYear": "2021-04-01",
+    "publisher": {
+      "name": "Publisher E",
+      "location": "City E"
+    },
+    "rating": 3.3,
+    "price": 110
+  },
+  {
+    "title": "Book 1",
+    "genre": "Mystery",
+    "publicationYear": "2021-12-05",
+    "publisher": {
+      "name": "Publisher A",
+      "location": "City A"
+    },
+    "rating": 4.5,
+    "price": 90
+  },
+  {
+    "title": "Book 9",
+    "genre": "Science",
+    "publicationYear": "2020-01-20",
+    "publisher": {
+      "name": "Publisher I",
+      "location": "City I"
+    },
+    "rating": 4.9,
+    "price": 115
+  },
+  {
+    "title": "Book 6",
+    "genre": "Romance",
+    "publicationYear": "2019-02-13",
+    "publisher": {
+      "name": "Publisher F",
+      "location": "City F"
+    },
+    "rating": 4.1,
+    "price": 85
+  },
+  {
+    "title": "Book 10",
+    "genre": "Drama",
+    "publicationYear": "2021-01-01",
+    "publisher": {
+      "name": "Publisher J",
+      "location": "City J"
+    },
+    "rating": 3.9,
+    "price": 75
+  },
+  {
+    "title": "Book 1",
+    "genre": "Mystery",
+    "publicationYear": "2020-01-01",
+    "publisher": {
+      "name": "Publisher A",
+      "location": "City A"
+    },
+    "rating": 4.5,
+    "price": 90
+  },
+  {
+    "title": "Book 1",
+    "genre": "Mystery",
+    "publicationYear": "2021-01-01",
+    "publisher": {
+      "name": "Publisher A",
+      "location": "City A"
+    },
+    "rating": 4.5,
+    "price": 90
+  }
+]
