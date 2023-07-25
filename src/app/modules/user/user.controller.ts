@@ -3,7 +3,6 @@ import asyncHandler from 'express-async-handler'
 import { UserService } from './user.service'
 import sendResponse from '../../../shared/sendResponse'
 import httpStatus from 'http-status'
-import { IUser } from './user.interface'
 import config from '../../../config'
 
 const createUser = asyncHandler(async (req: Request, res: Response) => {

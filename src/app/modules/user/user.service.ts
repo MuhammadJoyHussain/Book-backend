@@ -14,9 +14,12 @@ const createUser = async (payload: IUser): Promise<ILoginResponse> => {
   if (!createUser) {
     throw new ApiError(400, 'Failed to create!')
   }
+  const isUserExist = await User.isUserExist(email)
+
+  const { email: userEmail, _id } = isUserExist
 
   const accessToken = jwtHelpers.createToken(
-    { email },
+    { userEmail, _id },
     config.jwt_secret as Secret,
     config.jwt_expires_in as string
   )
