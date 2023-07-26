@@ -1,5 +1,8 @@
 [
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a93"
+    },
     "title": "Book 1",
     "genre": "Mystery",
     "publicationYear": "2021-11-02",
@@ -7,10 +10,16 @@
       "name": "Publisher A",
       "location": "City A"
     },
+    "user": {
+      "$oid": "64bebd0dee494056f3d84738"
+    },
     "rating": 4.5,
     "price": 90
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a94"
+    },
     "title": "Book 2",
     "genre": "Sci-Fi",
     "publicationYear": "2018-04-25",
@@ -18,10 +27,16 @@
       "name": "Roli Books",
       "location": "City B"
     },
+    "user": {
+      "$oid": "64bebd0dee494056f3d84738"
+    },
     "rating": 4.8,
     "price": 120
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a95"
+    },
     "title": "Book 8",
     "genre": "Horror",
     "publicationYear": "2022-06-14",
@@ -29,10 +44,16 @@
       "name": "Publisher H",
       "location": "City H"
     },
+    "user": {
+      "$oid": "64bebd0dee494056f3d84738"
+    },
     "rating": 4.4,
     "price": 95
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a96"
+    },
     "title": "Book 7",
     "genre": "Biography",
     "publicationYear": "2023-01-07",
@@ -40,10 +61,16 @@
       "name": "Publisher G",
       "location": "City G"
     },
+    "user": {
+      "$oid": "64bebd0dee494056f3d84738"
+    },
     "rating": 4.7,
     "price": 105
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a97"
+    },
     "title": "Book 4",
     "genre": "Thriller",
     "publicationYear": "2017-09-15",
@@ -51,10 +78,16 @@
       "name": "Publisher D",
       "location": "City D"
     },
+    "user": {
+      "$oid": "64bf946131007e05f9f44c13"
+    },
     "rating": 4.6,
     "price": 95
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a98"
+    },
     "title": "Book 5",
     "genre": "Historical Fiction",
     "publicationYear": "2021-04-01",
@@ -62,10 +95,16 @@
       "name": "Publisher E",
       "location": "City E"
     },
+    "user": {
+      "$oid": "64bf946131007e05f9f44c13"
+    },
     "rating": 3.3,
     "price": 110
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a99"
+    },
     "title": "Book 1",
     "genre": "Mystery",
     "publicationYear": "2021-12-05",
@@ -73,10 +112,16 @@
       "name": "Publisher A",
       "location": "City A"
     },
+    "user": {
+      "$oid": "64bf946131007e05f9f44c13"
+    },
     "rating": 4.5,
     "price": 90
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a9a"
+    },
     "title": "Book 9",
     "genre": "Science",
     "publicationYear": "2020-01-20",
@@ -84,10 +129,16 @@
       "name": "Publisher I",
       "location": "City I"
     },
+    "user": {
+      "$oid": "64bf946131007e05f9f44c13"
+    },
     "rating": 4.9,
     "price": 115
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a9b"
+    },
     "title": "Book 6",
     "genre": "Romance",
     "publicationYear": "2019-02-13",
@@ -95,10 +146,16 @@
       "name": "Publisher F",
       "location": "City F"
     },
+    "user": {
+      "$oid": "64bf946131007e05f9f44c13"
+    },
     "rating": 4.1,
     "price": 85
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a9c"
+    },
     "title": "Book 10",
     "genre": "Drama",
     "publicationYear": "2021-01-01",
@@ -106,10 +163,16 @@
       "name": "Publisher J",
       "location": "City J"
     },
+    "user": {
+      "$oid": "64bf946131007e05f9f44c13"
+    },
     "rating": 3.9,
     "price": 75
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a9d"
+    },
     "title": "Book 1",
     "genre": "Mystery",
     "publicationYear": "2020-01-01",
@@ -117,16 +180,25 @@
       "name": "Publisher A",
       "location": "City A"
     },
+    "user": {
+      "$oid": "64bf946131007e05f9f44c13"
+    },
     "rating": 4.5,
     "price": 90
   },
   {
+    "_id": {
+      "$oid": "64bf94bb741e02155ee79a9e"
+    },
     "title": "Book 1",
     "genre": "Mystery",
     "publicationYear": "2021-01-01",
     "publisher": {
       "name": "Publisher A",
       "location": "City A"
+    },
+    "user": {
+      "$oid": "64bebd0dee494056f3d84738"
     },
     "rating": 4.5,
     "price": 90

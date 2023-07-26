@@ -101,14 +101,32 @@ const updateBook = async (
 
   const { _id } = decodeToken
 
-  if (!payload.user === _id) {
+  const book = await Book.findOneAndUpdate({ _id: id }, payload, { new: true })
+
+  if (book?.user.toString() !== _id) {
     throw new ApiError(400, 'User did not match')
   }
 
-  const book = await Book.findOneAndUpdate({ _id: id }, payload, { new: true })
+  if (!book) {
+    throw new ApiError(404, `No Book Found with the id of ${id}`)
+  }
+
+  return book
+}
+
+const deleteBook = async (id: string, accessToken: any) => {
+  const decodeToken = decode(accessToken) as JwtPayload
+
+  const { _id } = decodeToken
+
+  const book = await Book.findOneAndDelete({ _id: id })
 
   if (!book) {
     throw new ApiError(404, `No Book Found with the id of ${id}`)
+  }
+
+  if (book?.user.toString() !== _id) {
+    throw new ApiError(400, 'User did not match')
   }
 
   return book
@@ -120,4 +138,5 @@ export const BookService = {
   getBooks,
   getBook,
   updateBook,
+  deleteBook,
 }

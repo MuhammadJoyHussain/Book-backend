@@ -3,12 +3,10 @@ import validateRequest from '../../../middleware/validateRequest'
 import { BookValidation } from './book.validation'
 import { BookController } from './book.controller'
 import auth from '../../../middleware/auth'
-import { ENUM_USER_ROLE } from '../../../enums/user'
 
 const router = express.Router()
 
 router.get('/', BookController.getBooks)
-router.get('/all', BookController.getAllBooks)
 
 router.post(
   '/create-book',
@@ -19,6 +17,7 @@ router.post(
 router
   .route('/:id')
   .get(BookController.getBook)
-  .patch(auth(ENUM_USER_ROLE.USER), BookController.updateBook)
+  .patch(BookController.updateBook)
+  .delete(BookController.deleteBook)
 
 export const BookRoutes = router
